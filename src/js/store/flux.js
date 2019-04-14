@@ -2,7 +2,8 @@ const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
 			characters: [],
-			planets: []
+			planets: [],
+			favourites: []
 		},
 		actions: {
 			changeColor: (index, color) => {

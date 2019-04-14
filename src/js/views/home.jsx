@@ -9,7 +9,7 @@ export class Home extends React.Component {
 		return (
 			<div className="container-fluid">
 				<div className="row">
-					<div className="card-columns d-flex justify-content-between">
+					<div className="scrolling-wrapper">
 						<Card />
 					</div>
 					<div>hjkygkjgfjhfgjlgffl</div>
@@ -21,3 +21,4 @@ export class Home extends React.Component {
 		);
 	}
 }
+// <div className="card-columns d-flex justify-content-between">

@@ -15,7 +15,7 @@ export default class Card extends React.Component {
 							<div className="card mr-2" key={index}>
 								<img
 									className="card-img-top"
-									src=".../100px180/"
+									src="https://via.placeholder.com/200"
 									alt="Card image cap"
 								/>
 								<div className="card-body">

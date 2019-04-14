@@ -1,8 +1,14 @@
 .card {
     width: 400px;
+    display: inline-block;
 }
 .card-columns .card {
     width: 350px!important;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 /*.card-columns {*/
