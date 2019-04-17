@@ -23,7 +23,7 @@ export class Layout extends React.Component {
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
 							<Route
-								path="/details/:theres/:theid"
+								path="/details/:theres"
 								component={Details}
 							/>
 							<Route path="/single/:theid" component={Single} />
